@@ -7,5 +7,9 @@ requires-python = ">=3.11"
 dependencies = [
     "fastmcp>=2.8.0",
     "httpx>=0.28.1",
+    "langchain-core>=0.3.65",
+    "langchain-mcp-adapters>=0.1.7",
+    "langchain-ollama>=0.3.3",
+    "langgraph>=0.4.8",
     "psycopg>=3.2.9",
 ]
